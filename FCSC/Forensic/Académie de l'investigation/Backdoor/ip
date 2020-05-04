@@ -1,0 +1,8 @@
+strings dmp.mem | grep 36280
+
+"NCAT_REMOTE_PORT=36280"
+
+strings dmp.mem | grep NCAT
+
+NCAT_REMOTE_ADDR=fd:6663:7363:1000:55cf:b9c6:f41d:cc24
+

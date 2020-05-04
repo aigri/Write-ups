@@ -1,0 +1,4 @@
+saymant@PC:~/Desktop/Bureau/FCSC/Forensic/CryptoLocker/volatility$ python vol.py -f dmp.mem --profile=Linuxdebian_5_4_0-4-amd64x64 linux_netstat | grep ESTABLISHED |  sort -u -k4,4 | wc -l
+Volatility Foundation Volatility Framework 2.6.1
+13
+
