@@ -1,5 +1,4 @@
-<center>Révision</center>
-==============
+# <center>Révision</center>
 
 <blockquote>La société Semper est spécialisée en    archivage de documents électroniques. Afin de  simplifier le travail des archivistes, un    outil simple de suivi de modification a été    mis en ligne. Depuis quelques temps    néanmoins, cet outil dysfonctionne. Les    salariés se plaignent de ne pas recevoir tous  les documents et il n'est pas rare que le    système plante. Le développeur de  l'application pense avoir identifié l'origine    du problème. Aidez-le à reproduire le bug.
 
