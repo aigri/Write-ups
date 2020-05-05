@@ -1,5 +1,4 @@
-<center>CryptoLocker</center>
-================
+# <center>CryptoLocker</center>
 
 <blockquote> Un de nos admins nous a appelé en urgence suite à un CryptoLocker qui s'est lancé sur un serveur ultra-sensible, juste après avoir appliqué une mise à jour fournie par notre prestataire informatique.
 
