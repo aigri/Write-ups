@@ -1,4 +1,4 @@
-# <center><b>Bestary</b></center>
+# <center><b>Bestiary</b></center>
 </br>
 <blockquote>On vous demande simplement de trouver le flag.
 </blockquote>
