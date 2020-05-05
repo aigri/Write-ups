@@ -1,5 +1,4 @@
-<center><b>Lipogrammeurs</b></center>
-=================
+# <center><b>Lipogrammeurs</b></center>
 </br>
 <blockquote>Vous avez trouvé cette page qui vous semble étrange. Pouvez-vous nous convaincre qu'il y a effectivement un problème en retrouvant le flag présent sur le serveur ?
 </blockquote>
