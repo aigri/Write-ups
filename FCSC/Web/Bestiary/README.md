@@ -7,7 +7,7 @@ Donc on arrive sur une page comme celle-ci où l'on nous demande de choisir un m
 
 ![](./bestiary.png)
 
-On choisit donc un monstre et on appuit sur "show description" et là on peut rearquer plusieurs choses
+On choisit donc un monstre et on appuit sur "show description" et là on peut remarquer plusieurs choses
 
 ![](./bestiary1.png)
 
