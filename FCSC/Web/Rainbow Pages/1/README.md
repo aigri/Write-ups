@@ -11,6 +11,7 @@ On arrive sur cette page
 
 Voyons voir le code source, ça pourrait un peu nous éclairer
 
+```javascript
     <script>
 		function makeSearch(searchInput) {
 			if(searchInput.length == 0) {
@@ -54,6 +55,7 @@ Voyons voir le code source, ça pourrait un peu nous éclairer
 			makeSearch(content);
 		})
 	</script>
+```
 
 Vu la tête de la requête on peut se dire qu'il s'agit en réalité de GraphQL et que donc le challenge ici va consister en une GraphQL injection.
 
