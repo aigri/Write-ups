@@ -260,7 +260,7 @@ et que la condition est effectuée à 0x0401ae1
 
 Bien, dans ce cas il ne nous reste plus qu'à faire un petit script nous permettant de déchiffrer le xor.
 <br>
-Dans un premier temps j'ai récuperé la forme hexadecimale du fichier grâce à un [petit script]('https://github.com/saymant/File-Data-to-Hex/blob/master/DataToHex.sh'), et une fois celle-ci recuperée, je n'ai eu qu'à edit, compiler et executer [mon script]('https://github.com/saymant/XOR-Decryption').
+Dans un premier temps j'ai récuperé la forme hexadecimale du fichier grâce à un script que j'ai fait permettant de le faire -> https://github.com/saymant/File-Data-to-Hex/blob/master/DataToHex.sh, et une fois celle-ci recuperée, je n'ai eu qu'à edit, compiler et executer mon script -> https://github.com/saymant/XOR-Decryption.
 <br>
 Ce qui au final donne : 
 <br>
