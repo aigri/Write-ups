@@ -22,6 +22,8 @@ Bref revenons à notre faille, on essaye alors d'inclure index.php en paramètre
 
 On reçoit alors le code source de index.php en base64, nous avons juste à le decoder, ce qui nous donne :
 
+```php
+
     <?php
 	    session_save_path("./sessions/");
 	    session_start();
@@ -75,7 +77,7 @@ On reçoit alors le code source de index.php en base64, nous avons juste à le d
     <div style="font-size:70%">Source : https://io9.gizmodo.com/the-10-most-memorable-dungeons-dragons-monsters-1326074030</div><br />
     </body>
     </html>
-
+```
 
 En lisant `session_save_path("./sessions/");` on peut déjà deviner le fichier dans lequel notre session sera stockée :
 
