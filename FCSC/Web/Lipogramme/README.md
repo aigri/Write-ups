@@ -5,6 +5,7 @@
 
 Nous arrivons donc sur une page web ne contenant que ce code php :
 
+```php
      <?php
     if (isset($_GET['code'])) {
         $code = substr($_GET['code'], 0, 250);
@@ -20,6 +21,7 @@ Nous arrivons donc sur une page web ne contenant que ce code php :
     } else {
         show_source(__FILE__);
     }
+```
 
 Le code va vérifier le paramètre que l'on donne à 'code' pour soit retourner une erreur soit executer ce que l'on a mis en paramètre.
 <br><br>
