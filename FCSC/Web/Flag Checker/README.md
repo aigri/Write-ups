@@ -17,7 +17,7 @@ Commençons par regarder les sources
 L'index.js ne donne rien d'intéressant à exploiter, par contre penchons nous plus sur l'index.wasm, il peut être intéressant.
 
   
-    
+  ```wasm
     (module
       (type $type0 (func (param i32) (result i32))  )
       (type $type1 (func))
@@ -138,6 +138,7 @@ L'index.js ne donne rien d'intéressant à exploiter, par contre penchons nous p
         "E@P@x4f1g7f6ab:42`1g:f:7763133;e0e;    03`6661`bee0:33fg732;b6fea44be34g0~"
       )
     )
+```
 
 Nous avons donc notre string tout en bas, et dans les instructions nous voyons un i32.xor, cela veut dire que notre string a été xor. Il nous suffit donc d'aller sur un [XOR Bruteforcer]('https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force(1,100,0,'Standard',false,true,false,'')')
 
