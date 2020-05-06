@@ -152,6 +152,7 @@ Essayons de mettre cette valeur comme argument dans l'executable. Mais le seul p
 <br>
 Alors nous avons juste à faire un petit script en python qui va décrémenter chaque lettre de notre string, celui-ci devrait ressembler à ça :
 
+```python
     string= "NzTfdvs4"
     t = []
 
@@ -161,6 +162,7 @@ Alors nous avons juste à faire un petit script en python qui va décrémenter c
     final = "".join(t)
 
     print(final)
+```
 
 L'output est : MySecur3
 <br><br>
@@ -207,6 +209,7 @@ Nous arrivons donc à voir une string dont le début ressemble fortement à cell
 <br><br>
 Bien, maintenant réessayons d'appliquer notre script en modifiant la valeure de 'string' ce qui donne :
 
+```python
     string= "NzTfdvs4Q4ttx1se"
     t = []
 
@@ -216,6 +219,7 @@ Bien, maintenant réessayons d'appliquer notre script en modifiant la valeure de
     final = "".join(t)
 
     print(final)
+```
 
 Executons le 
 
