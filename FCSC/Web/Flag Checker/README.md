@@ -140,7 +140,7 @@ L'index.js ne donne rien d'intéressant à exploiter, par contre penchons nous p
     )
 ```
 
-Nous avons donc notre string tout en bas, et dans les instructions nous voyons un i32.xor, cela veut dire que notre string a été xor. Il nous suffit donc d'aller sur un [XOR Bruteforcer]('https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force(1,100,0,'Standard',false,true,false,'')')
+Nous avons donc notre string tout en bas, et dans les instructions nous voyons un i32.xor, cela veut dire que notre string a été xor. Il nous suffit donc d'aller sur un XOR Bruteforcer cf https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force(1,100,0,'Standard',false,true,false,'')
 
 On peut alors voir un ```Key = 03: FCSC{7e2d4e5ba971c2d9e944502008f3f830c5552caff3900ed4018a5efb77af07d3}```
 
