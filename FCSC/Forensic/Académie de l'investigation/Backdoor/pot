@@ -1,7 +1,0 @@
-linux_netstat
-
-TCP      ::              :36280 ::              :    0 LISTEN                       ncat/119711
-TCP      0.0.0.0         :36280 0.0.0.0         :    0 LISTEN                       ncat/119711
-TCP      127.0.0.1       :64768 0.0.0.0         :    0 LISTEN                        cli/119514
-
-port : 36280
