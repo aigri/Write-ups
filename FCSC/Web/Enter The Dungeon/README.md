@@ -16,6 +16,7 @@ On essaye alors un input bidon, toto.
 <br>
 Mais par contre on peut voir que /?check_secret.php à été ajouté à notre url avec comme paramètre notre input qui ici est toto. Assez intéressant, revenons à notre index et allons check du côté du code source maintenant !
 
+```html
     <html> 
     <head>
 	<title>Enter The Dungeon</title>
@@ -70,8 +71,10 @@ Mais par contre on peut voir que /?check_secret.php à été ajouté à notre ur
     </form>
     </body>
     </html>
+```
 Le commentaire à ici l'air intéressant, allons voir le check_secret.txt.
 
+```php
     <?php
 	    session_start();
 	    $_SESSION['dungeon_master'] = 0;
@@ -101,15 +104,19 @@ Le commentaire à ici l'air intéressant, allons voir le check_secret.txt.
 		    echo "Wrong secret !";
 	    }
     ?>
+```
 
 Ah oui ... Le challenge prend alors tout son sens, si on regarde la condition ci-dessous...
 
+```php
         if(md5($_GET['secret']) == $_GET['secret'])
     {
 	    $_SESSION['dungeon_master'] = 1;
 	    echo "Secret is correct, welcome Master ! You can now enter the dungeon";
 	
     }
+```
+
 Nous pouvons voir que nous avons affaire à une condition **impossible** afin que nous n'arrivions jamais à entrer dans le donjon car effectivement, un mot, un nombre, ou quoi que ce soit ne peut pas être égal à son hash md5. Vraiment ?
 
 Et bien en réalité pas vraiment, nous avons ici affaire à une *Loose comparison*. La faille va ici consister à mettre en input une valeur qui commence par *0e* et dont le hash md5 aussi commence également par *0e*.
