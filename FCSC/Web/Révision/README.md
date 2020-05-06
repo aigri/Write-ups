@@ -9,6 +9,7 @@ Note : La taille totale des fichiers est    limitée à 2Mo.</blockquote>
 
 Et on nous laisse avec ce script :
 
+```python
     # coding: utf-8
     import hashlib
     from web.services.database import Database
@@ -92,7 +93,7 @@ Et on nous laisse avec ce script :
             with open('flag.txt', 'r') as f:
                 flag = f.read()
             return flag
-
+```
 
 Ce challenge consistait juste en une sha1 collision.
 <br><br>
