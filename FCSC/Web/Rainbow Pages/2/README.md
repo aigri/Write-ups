@@ -13,6 +13,7 @@ On arrive donc sur cette page
 
 Dont le code source contient le script 
 
+```javascript
     <script>
 		function makeSearch(searchInput) {
 			if(searchInput.length == 0) {
@@ -56,6 +57,7 @@ Dont le code source contient le script
 			makeSearch(content);
 		})
 	</script>
+```
 
 Vu la requête de la première version du challenge, on peut deviner celle de celui-ci qui devrait ressembler à ```{ allCooks (filter: {or: [{firstname: {like: "%input%"}}, {lastname: {like: "%input%"}}])} { nodes { firstname, lastname, speciality, price}}```
 
