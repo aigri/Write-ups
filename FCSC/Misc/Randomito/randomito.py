@@ -1,12 +1,3 @@
-# Randomito 
-
-![](./randomito.png)
-
-
-Donc on nous laisse avec ce script 
-
-```py
-
 #!/usr/local/bin/python2
 
 import sys
@@ -53,16 +44,3 @@ if __name__ == "__main__":
 		exit(0)
 	else:
 		exit(0)
-```
-
-Ici c'est le check qui n'est pas secure on peut le bypass simplement en mettant dans les input "secret_a" & "secret_b". Testons ça
-
-    $ nc challenges2.france-cybersecurity-challenge.fr 6001
-    [+] Generating a 128-bit random secret (a, b)
-    [+] Done! Now, try go guess it!
-    >>> a = secret_a
-    >>> b = secret_b
-    [-] Trying 98e0f1ec6fe2c9d5aaf389b29e0380a4
-    [+] Well done! Here is the flag: FCSC{4496d11d19db92ae53e0b9e9415d99d877ebeaeab99e9e875ac346c73e8aca77}
-
-Plutôt simple non ?
