@@ -53,6 +53,7 @@ Le serial a encore changé, on peut donc en déduire qu'il va varier en fonction
 
 Parfait ! Maintenant nous avons tout ce qu'il nous faut pour faire notre Keygen, celui que nous utiliserons ici est en python et ressemble à ça :
 
+```python
     import socket,time
 
     HOSTNAME = "challenges2.france-cybersecurity-challenge.fr"
@@ -85,6 +86,7 @@ Parfait ! Maintenant nous avons tout ce qu'il nous faut pour faire notre Keygen,
             sock.sendall(answer[::-1].encode() + b'\n')
             time.sleep(1)
     sock.close() 
+```
 
 Brièvement ce que fait ce script c'est qu'il va attendre de recevoir quelque chose du serveur, une fois reçu il va juste prendre la valeure qui se situe après ': ' (C'est l'username que donne le serveur car les messages sont comme ceci : <br>"What is a valid serial for username: blablabla
 <br>\>\>> la_serial_qu'on_va_mettre" )
