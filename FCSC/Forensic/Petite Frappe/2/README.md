@@ -223,6 +223,8 @@ Donc on arrive sur un fichier contenant cela
 
 J'ai alors juste eu à utiliser un petit script en python qui ressemble à ça : 
 
+```python
+
     with open("petite_frappe_2.txt", "r") as fd:
     content = fd.readlines()
 
@@ -253,6 +255,7 @@ J'ai alors juste eu à utiliser un petit script en python qui ressemble à ça :
             raise ValueError(line)
 
     print(out)
+```
 
 J'ai par contre dû enlever tous les "key" du fichier initiale ce qui donnait ceci :
 
