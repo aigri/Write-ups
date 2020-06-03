@@ -76,7 +76,7 @@ OK donc system se trouve à 0x4006d0.
 
 On va d'arranger pour modif le strlen() par un system(), on sait donc qu'on devra modifier le 889e byte car dans l'executable desassemblé nous pouvons voir que strlen() se trouve au 889e octet (0x0000000000400888 + 1 pour arriver sur le strlen), il ne nous reste plus qu'à trouver quelle valeur nous allons mettre à cette adresse.
 
-On va alors chercher cette valeur juste en calculant la distance qu'il y a entre le call de system et l'adresse de l'instruction qui suit le call de strlen (la du call de strlen)
+On va alors chercher cette valeur juste en calculant la distance qu'il y a entre le call de system et l'adresse de l'instruction qui suit le call de strlen (la fin du call de strlen)
 
     pwndbg> p/x 0x000000000040088d-0x00000000004006d0
     $7 = 0x1bd
